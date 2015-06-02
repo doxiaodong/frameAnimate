@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FrameAnimate Canvas</title>
+</head>
+<body>
+	<canvas id="frameAnimate" data-source="img/arrow00"></canvas>
+
+	<button onclick="frame1.pause()">暂停</button>
+	<button onclick="frame1.play()">播放</button>
+	<button onclick="frame1.replay()">重放</button>
+	<button onclick="frame1.stop()">停止</button>
+	<button onclick="frame1.seekTo(1)">跳转到2</button>
+
+	<script src="frameAnimate.js"></script>
+	<script>
+		var canvas = document.getElementById('frameAnimate');
+		var frame1 = new frameAnimate(canvas, {
+			width: 55,
+			height: 67,
+			frame: 7,
+			loop: true
+		}, function() {
+			console.log("==stop==");
+		});
+
+		frame1.play();
+	</script>
+</body>
+</html>
