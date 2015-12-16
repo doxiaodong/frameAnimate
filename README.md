@@ -10,4 +10,4 @@ canvas播放序列帧动画
 
 ### 使用说明
 
-1. [https://darlin.me/article/front/frameanimate](https://darlin.me/article/front/frameanimate)
+1. [https://darlin.me/article/front/ZnJhbWVhbmltYXRl](https://darlin.me/article/front/ZnJhbWVhbmltYXRl)
