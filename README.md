@@ -11,3 +11,8 @@ canvas播放序列帧动画
 ### 使用说明
 
 1. [https://darlin.me/article/front/ZnJhbWVhbmltYXRl](https://darlin.me/article/front/ZnJhbWVhbmltYXRl)
+
+
+### 更新
+
+1. 使用 es2015重写

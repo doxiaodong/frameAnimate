@@ -13,14 +13,15 @@
 	<button onclick="frame1.stop()">停止</button>
 	<button onclick="frame1.seekTo(1)">跳转到2</button>
 
-	<script src="frameAnimate.js"></script>
+	<script src="../lib/frameAnimate.js"></script>
 	<script>
 		var canvas = document.getElementById('frameAnimate');
 		var frame1 = new frameAnimate(canvas, {
 			width: 55,
 			height: 67,
 			frame: 7,
-			loop: true
+			loop: true,
+      loopCount: 2
 		}, function() {
 			console.log("==stop==");
 		});
