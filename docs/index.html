@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>FrameAnimate Canvas</title>
 </head>
+
 <body>
 	<canvas id="frameAnimate" data-source="img/arrow00"></canvas>
 
@@ -13,7 +15,7 @@
 	<button onclick="frame1.stop()">停止</button>
 	<button onclick="frame1.seekTo(1)">跳转到2</button>
 
-	<script src="../lib/frameAnimate.js"></script>
+	<script src="./frameAnimate.js"></script>
 	<script>
 		var canvas = document.getElementById('frameAnimate');
 		var frame1 = new frameAnimate(canvas, {
@@ -29,4 +31,5 @@
 		frame1.play();
 	</script>
 </body>
+
 </html>
